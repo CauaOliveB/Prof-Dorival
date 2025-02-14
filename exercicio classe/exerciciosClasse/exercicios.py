@@ -90,3 +90,19 @@
 # aluno1 = Aluno("Carlos", 1123, 5, 3 , 4)
 # print(f"Média:{aluno1.mediaNotas()}")
 # print(f"Situação:{aluno1.situacao()}")
+
+# 5. Crie uma classe chamada “Funcionário” com atributos para armazenar o nome, o 
+# salário e o cargo do funcionário. Implemente métodos para calcular o salário líquido, 
+# considerando descontos de impostos e benefícios. 
+
+# class Funcionario():
+#     def __init__(self,nome,salario,cargo):
+#         self.nome = nome
+#         self.salario = salario
+#         self.cargo = cargo
+
+#     def salarioLiquido(self):
+#         return self.salario - 336 - 20
+
+# funcionario1 = Funcionario("Carlos", 3000, "Programador Junior")
+# print(f"Salário líquido:{funcionario1.salarioLiquido()}")
