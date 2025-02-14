@@ -66,4 +66,27 @@
 # perimetro = retangulo1.calcularPerimetro()
 # print(perimetro)
 
+# 4. Implemente uma classe chamada “Aluno” que possua atributos para armazenar o 
+# nome, a matrícula e as notas de um aluno. Adicione métodos para calcular a média das 
+# notas e verificar a situação do aluno (aprovado ou reprovado). 
 
+# class Aluno():
+#     def __init__(self,nome,MT,nota1, nota2, nota3):
+#         self.nome = nome
+#         self.MT = MT
+#         self.nota1 = nota1
+#         self.nota2 = nota2
+#         self.nota3 = nota3
+
+#     def mediaNotas(self):
+#         return (self.nota1+self.nota2+self.nota3) /3
+
+#     def situacao(self):
+#         if (self.mediaNotas() < 5):
+#             return("Reprovado")
+#         else:
+#             return("Aprovado")
+
+# aluno1 = Aluno("Carlos", 1123, 5, 3 , 4)
+# print(f"Média:{aluno1.mediaNotas()}")
+# print(f"Situação:{aluno1.situacao()}")
